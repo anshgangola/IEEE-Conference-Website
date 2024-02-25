@@ -1,0 +1,55 @@
+.divide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3.5em;
+  width: 90%;
+  margin-left: 10em;
+  margin-bottom:10em;
+}
+
+.divide img {
+  width: 10em;
+  object-fit: cover;
+  margin-right: 2em;
+}
+
+.subsec {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.subsec h5 {
+  margin-bottom: 1em;
+  word-spacing: 30%;
+  color: #0b2476;
+  letter-spacing: 3px;
+}
+.subsec h6 {
+  font-weight: bold;
+}
+
+.subsec p {
+  font-weight: lighter;
+}
+
+@media (max-width:848px){
+  .divide{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+  }
+  .subsec{
+    display: block;
+    align-items:center;
+    margin: auto;
+    margin-bottom: 0.5em;
+   
+  }
+  .divide img{
+    margin-bottom: 0.5em;
+  }
+}

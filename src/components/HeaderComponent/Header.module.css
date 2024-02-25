@@ -1,0 +1,39 @@
+
+.logoImg{
+    width:200px;
+   
+}
+
+.logo{
+    padding-left: 5rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger a{
+    text-decoration: none;
+    color:#0b2476;
+}
+@media(max-width:1000px){
+    .hamburger{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1em;
+        color:#0b2476;
+        
+    }
+    .head{
+        height:150px;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        margin:auto;
+        padding:0 2em;
+    }
+}
+
+
+

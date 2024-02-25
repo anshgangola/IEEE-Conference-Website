@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+.container{
+    box-shadow:10px 5px 5px grey;
+    border:1px solid;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    padding:2em;
+    text-align: center;
+    background-color: rgb(8, 13, 59);
+    width:100%;
+    
+    margin-right:0;
+    margin-bottom:2em;
+    
+}
+
+
+.container p,.container span{
+    
+    color:rgb(220, 213, 213);
+    font-weight: bold;
+}
+
+.container p:last-child{
+    
+    font-weight:200;
+}
+
+@media (max-width:768px){
+    .container{
+        width:80%;
+    }
+}
+
+@media (max-width:468px){
+    .container{
+        width:90%;
+    }
+}
+
